@@ -1,0 +1,107 @@
+body{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+header{
+  background-color: rgba(157, 212, 247, 0.5);
+  min-width: max-content;
+  border: 1px solid orange;
+  text-align: center;
+}
+h1{
+  float: left;
+  width: 250px;
+  border: 1px solid black;
+
+}
+.floated1{
+  float: right;
+  width: 200px;
+  margin: 30px 0;
+  border: 1px solid black;
+}
+.flo{
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  /* border: 1px solid black; */
+
+}
+header div{
+  margin: 0 20px;
+
+}
+header h1{
+  margin: 20px 0 20px 20px;
+  padding: 3px;
+}
+nav div ul{
+  padding: 0;
+  min-width: max-content;
+}
+nav div ul li{
+  margin: 0 10px;
+}
+
+main div section div div{
+  float: left;
+}
+main div section div div a{
+  margin: 10px;
+  float: left;
+
+}
+main div section div form{
+  min-width: max-content;
+  margin: 0 8px;
+}
+
+h3{
+
+  margin: 0 0 0 4%;
+}
+p{
+  background-color: lightgrey;
+}
+
+#zinas {
+  display: block;
+  text-align: center;
+  margin: 0;
+  border: 1px solid red;
+}
+#as1{
+float: left;
+width: 30%;
+border: 1px solid black;
+}
+#as2{
+  float: right;
+  width: 30%;
+  border: 1px solid black;
+}
+#as3{
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px solid black;
+
+}
+footer{
+  background-color: rgb(125, 167, 230);
+}
+footer ul{
+  
+  list-style: none;
+}
+footer ul li{
+  min-width: 200px;
+  
+  margin: 20px 20px;
+}
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}

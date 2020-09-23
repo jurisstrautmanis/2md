@@ -1,0 +1,91 @@
+body{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+header{
+  background-color: rgba(157, 212, 247, 0.5);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  min-width: max-content;
+  border: 1px solid orange;
+  
+}
+header div{
+  margin: 0 20px;
+}
+header h1{
+  margin: 20px 0 20px 20px;
+  padding: 3px;
+}
+nav div ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  min-width: max-content;
+}
+nav div ul li{
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+main div section div div{
+  display: flex;
+  justify-content: center;
+}
+main div section div div a{
+  margin: 10px;
+}
+main div section div form{
+  min-width: max-content;
+  margin: 0 8px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0 4%;
+}
+p{
+  display: inline-block;
+  margin-left: 3%;
+  background-color: lightgrey;
+}
+#zinas {
+  display: flex;
+  margin: 10px;
+}
+#as1, #as2, #as3{
+  display: flex;
+  align-items: center;
+}
+footer{
+  background-color: rgb(125, 167, 230);
+}
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
+footer ul li{
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+hr{
+  border: 1px dashed orange;
+}
+
