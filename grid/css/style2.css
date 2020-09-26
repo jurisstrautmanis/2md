@@ -12,9 +12,12 @@ body{
 }
 
 .a {
+  display: grid;
   grid-column: 1/6;
   grid-row:1/2 ;
   background-color: lightblue;
+  align-items: center;
+  justify-content: center;
 }
 .b {
   grid-column: 2/3;
@@ -58,23 +61,11 @@ body{
   background-color: yellow;
 }
 
-
-/* .b {
-  grid-column-start: zirnis;
-  grid-row-start: abols;
-  grid-row-end: zirnis;
-  background-color: lightpink;
+#user{
+  display: grid;
+  border: 3px solid green;
+  background-color: white;
+  border-style: double;
+  border-radius: 12px;
+  width: 40vw;
 }
-
-.c {
-  grid-column-start: tomats;
-  grid-row-start: abols;
-  background-color: lightgreen;
-}
-
-.d {
-  grid-column-start: tomats;
-  grid-column-end: kirbis;
-  grid-row-start: zirnis;
-  background-color: lightyellow;
-} */
