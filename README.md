@@ -1,2 +1,2 @@
-# Floats Flexbox
+# Floats Flexbox Grid
 Mājasdarbs
